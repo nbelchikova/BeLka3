@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BeLka</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <div id="content">
+        <div id="logo">
+            <img id="lg" src="Logobelka.png" alt="">
+        </div>
+        <nav class="desktop">
+            <ul id="gold">
+              <li><a href="#Company">О компании</a></li>
+              <li><a href="#product">Наши проекты</a></li>
+              <li><a href="#">+7 (985) 164-70-16</a></li>
+              <li><a href="#">+7 (985) 755-10-06</a></li>
+              <li><a href="#svyaz" class="button">Обратная связь</a></li>
+            </ul>
+        </nav>
+        <nav class="mobile">
+            <ul>
+              <li><a href="#" class="button">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- About us -->
+    <div id="Company">
+        <h2>О компании</h2>
+            <p id="p1">Всем привет!Наша молодая компания <strong>BeLka</strong> была основана в 2022 году. Наша команда- амзициозные, молодые и талантливые ребята, стремящиеся сделать Вам сайт мечты.Уверены, что наше сотрудничество приятно Вас удивит.</p>
+            <img id="img1" src="./Logobelka.png" alt="">        
+        </div>
+    <!-- Product detail -->
+    <div id="product">
+        <h2>Наша проекты</h2>
+        <div id="projects">
+           <ul>
+               <li><a id="ul1" href="https://nbelchikova.github.io/skf.github.io/" target="_blank">Корпоративный сайт компании SKF</a></li>
+               <li><a id="ul1" href="https://nbelchikova.github.io/Harry_Potter/" target="_blank">Сайт с рандомным выбором факультета и персонажа Хогвартса</a></li>
+           </ul>  
+        </div>
+    </div>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <!-- svyaz -->
+    <div id="svyaz">
+        <h2>Обратная связь</h2>
+        <br>
+        <div id="osv">
+            <button id='obrsvyaz'>Отправить сообщение</button>
+        <br>
+        <br>
+        <form id="form1" action="mailto:n.belchikova@yandex.ru" method="post">
+            <label for="text">Введите Ваше имя</label>
+            <input id="text" name="text" type="text" required minlength="3" maxlength="20">
+            <br>
+            <br>
+            <label for="phone">Введите Ваш телефон</label>
+            <input id="phone" name="phone" type="number" required min="11" maxlength="15">
+            <br>
+            <br>
+            <label for="email">Введите Ваш email</label>
+            <input id="email" name="email" type="email" required minlength="3" maxlength="20">
+            <br>
+            <br>
+            <label for="site">Тип сайта</label>
+            <select name="site" id="site">
+                <option value="Сайт-визитка">Сайт-визитка</option>
+                <option value="Landing-page">Landing-page</option>
+                <option value="Корпоративный сайт">Корпоративный сайт</option>
+                <option value="Интернет-магазин">Интернет-магазин</option>
+                <option value="Портал">Портал</option>
+            </select>
+            <br> 
+            <br>
+            <label for="comment">Комментарий</label>
+            <br>
+        
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            <br>
+            
+            <button id='send'>Отправить</button>  
+        </form>
+        </div>
+    </div>
+    <script src="./java.js" charset="utt-8"></script>
+    <br>
+    <br>
+    <!-- Footer -->
+    <footer>
+        <div class="content">
+          <span class="copyright">© 2022  BeLka, All Rights Reserved</span>
+        </div>
+    </footer>    
+</body>
+</html>
